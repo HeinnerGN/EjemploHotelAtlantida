@@ -3,4 +3,49 @@ div{border: 2px solid;}
 
 #cuerpo_principal{
     background-color: aqua;
-    width: 100;
+    width: 90%;
+    margin: 30;
+    padding: 2%;
+    box-shadow: 4px 4px 4px yellowgreen;
+}
+
+.capasgeneral{
+    background-color: aquamarine;
+    width: 150;
+    margin: 2%;
+    padding: 500px;
+}
+
+.texto{
+    align-items: center;
+    font-style: italic;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: palegreen;
+}
+
+#contenido{
+    background-color: black;
+    position: relative;
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    padding: 2px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.lol{
+    background-color: burlywood;
+    width: 40%;
+    box-shadow: 2px 2px;
+}
+
+.justify{
+    display: flex;
+    justify-content: space-around;
+}
